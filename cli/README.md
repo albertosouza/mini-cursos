@@ -1,4 +1,4 @@
-# Criando comandos de terminal com Node.js (CLI)
+# Criando comandos de terminal (CLI) com Node.js
 
 ***Em desenvolvimento***
 
