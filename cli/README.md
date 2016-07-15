@@ -16,9 +16,10 @@ Vamos criar alguns comandos simples para exemplificar o uso de comandos.
 
 ## Pré-requisitos:
 
-Para realizar esse curso você deve saber Javascript básico e ter o node.js instalado em seu computador.
+Para realizar esse curso você deve saber **Javascript básico** e ter o **node.js** instalado em seu computador.
 
 ## Conteúdo:
+
 
 
 ## API
