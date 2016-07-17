@@ -6,15 +6,15 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
 
 ## Cursos:
 
-- [] Node.js basico - TODO!
-  - [] Estrutura de dados
-  - [] Funções e escopo
-  - [] Sync, async e Promise
-  - [] Incluindo e criando modulos no seu código
-- [] [Criando comandos de terminal (CLI) com Node.js](cli/README.md) 
-- [] Sequelize avançado - TODO!
-- [] Express - TODO!
-- [] Enviando emails com localização - TODO!
+- [ ] Node.js basico - TODO!
+  - [ ] Estrutura de dados
+  - [ ] Funções e escopo
+  - [ ] Sync, async e Promise
+  - [ ] Incluindo e criando modulos no seu código
+- [ ] [Criando comandos de terminal (CLI) com Node.js](cli/README.md) 
+- [ ] Sequelize avançado - TODO!
+- [ ] Express - TODO!
+- [ ] Enviando emails com localização - TODO!
 
 ## Contato. suporte. dúvidas e fórum
 
