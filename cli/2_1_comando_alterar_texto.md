@@ -163,7 +163,6 @@ No código acima estamos usando o modulo string para carregar o texto e depois a
 
 Para mais informações como o modulo string funciona acesse: http://stringjs.com/
 
-
 ### 4 Código final:
 
 Arquivo **bin/muda-texto.js**
@@ -174,7 +173,8 @@ Arquivo **bin/muda-texto.js**
 // modulos que vamos usar nesse comando:
 var program = require('commander');
 var S = require('string');
-// registra um novo comando e parâmetros para esse comando, no caso temos 1 argumento obrigátório e 1 opção para selecionar a ação:
+// registra um novo comando e parâmetros para esse comando, 
+// no caso temos 1 argumento obrigátório e 1 opção para selecionar a ação:
 program
 .version('0.0.1')
 .arguments('<texto>')
@@ -185,11 +185,13 @@ program
   // mostra o texto formatado no terminal
   console.log( text[ prog.action ]().s );
 });
-// Lê os argumentos do comando atual e prepara para a execução da ação relacionada:
+// Lê os argumentos do comando atual e prepara para a execução 
+// da ação relacionada:
 program.parse(process.argv);
 // Se o usuário não passar nenhum argumento ele vai exibir um texto:
 if (!program.args.length) {
-  console.log('O comando não foi encontrato, use o comando "muda-texto -h" para ver todas as opções disponíveis.');
+  console.log('O comando não foi encontrato, use o comando'+
+  ' "muda-texto -h" para ver todas as opções disponíveis.');
 }
 
 ```

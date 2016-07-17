@@ -97,7 +97,7 @@ Agora o comando **say-my-name** vai estar disponível no seu terminal. Exemplo:
 
 ## Próximo conteúdo do curso:
 
-Link: [Criando um comando para alterar textos](2_1_comand_alterar_texto.md)
+Link: [Criando um comando para alterar textos](2_1_comando_alterar_texto.md)
 
 ## Links e referências:
 
