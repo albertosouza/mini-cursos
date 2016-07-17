@@ -20,9 +20,19 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
 
 ## Conteúdo:
 
+- Preparação e introdução
+  - Exemplos de uso
+  - **npm link**
+  - Modulos **globais** e **locais**
+  - **npm scripts**
+- Iniciando
+  - Criando um projeto com comandos
+- Desenvolvendo e praticando
+  - Criando um comando para alterar textos
+  - Criando um comando para exibir a cotação atual do dolar e euro
+  - Usando comandos com o CRON (agendador de tarefas do sistema operacional)
 
+## APIs e Links úteis
 
-## API
-
-http://api.promasters.net.br/cotacao/v1/valores
+- Api para pegar os dados da cotação: http://api.promasters.net.br/cotacao/v1/valores
 
