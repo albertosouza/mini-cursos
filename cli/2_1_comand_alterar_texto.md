@@ -26,7 +26,7 @@ npm i --save commander string
 
 Vamos chamar o nosso comando de **muda-texto**.
 
-1.1- Para registrar esse comando temos que adiciona-lo na configuração **bin** do **package.json** :
+#### 1.1- Para registrar esse comando temos que adiciona-lo na configuração **bin** do **package.json** :
 
 ```json
 {
@@ -48,7 +48,7 @@ Vamos chamar o nosso comando de **muda-texto**.
 }
 ```
 
-2.2- Crie o arquivo **muda-texto.js** na pasta **bin** com o conteúdo:
+#### 2.2- Crie o arquivo **muda-texto.js** na pasta **bin** com o conteúdo:
 
 ```js
 #! /usr/bin/env node
@@ -56,7 +56,7 @@ Vamos chamar o nosso comando de **muda-texto**.
 console.log('vamos mudar o texto, TODO!')
 ```
 
-2.3- Rode o npm link novamente
+#### 2.3- Rode o npm link novamente
 
 ```sh
 npm link
@@ -64,7 +64,7 @@ npm link
 
 OBS: Pode ser nescessário usar o sudo antes do comando acima.
 
-2.4- Testando
+#### 2.4- Testando
 
 Para testar se o seu comando está registrado rode `muda-texto` no terminal
 
@@ -85,7 +85,7 @@ O arquivo vai ficar assim:
 #! /usr/bin/env node
 ```
 
-3.1- Carregando os modulos que vamos usar no nosso comando:
+#### 3.1- Carregando os modulos que vamos usar no nosso comando:
 
 Adicione as linhas`abaixo no arquivo **muda-texto.js**:
 
@@ -94,7 +94,7 @@ var program = require('commander');
 var S = require('string');
 ```
 
-3.2- Usando o comander para configurar um comando:
+#### 3.2- Usando o comander para configurar um comando:
 
 > No comander você pode definir argumentos e opções para o seu comando e ele automaticamente gera as inscrições de uso quando o comando for executado com a opção `-h` . Ex: `muda-text -h`
 
@@ -111,6 +111,87 @@ program
 });
 
 program.parse(process.argv);
+```
+
+Agora ao rodar o comando **muda-texto 'oi mundo'** o terminal vai exibir algumas o texto 'recebi o texto: oi mundo' e os dados do objeto prog.
+
+TIP: Use o console.log para exibir dados no terminal.
+
+Explicando o código acima:
+
+```js
+// primeiro pegamos o objeto program definido na etapa anterior
+// do curso:
+program
+// depois setamos a versão atual do nosso programa:
+.version('0.0.1')
+// o nosso programa vai receber o argumento texto que é nescessário 
+// para a execução da ação (use [] para definir argumentos opcionais 
+// ex: [text]):
+.arguments('<texto>')
+// Noos programa vai aceitar o argumento --action ou -a com um valor obrigatório:
+.option('-a, --action <action>', 'Ação que o nosso comando vai realizar')
+// agora adicionamos uma função para ser executada quando rodarmos o 
+// programa com os arqumentos nescessários:
+.action(function (texto, prog) {
+  // exibe o valor do argumento texto
+  console.log('recebi o texto:', texto);
+  // exibe o valor do programa/comando atual e o valor do 
+  // argumento action está disponível em **prog.action**:
+  console.log('informações:', prog);
+});
+// para executar os comandos do nosso programa e carregar todos os 
+// argumentos e opções você deve rodar a linha abaixo em seu 
+// arquivo executável:
+program.parse(process.argv);
+```
+
+#### 3.3- Adicionando a parte de alteração do texto:
+
+Vamos mudar a função de .action por algo funcional:
+
+```js
+.action(function (texto, prog) {
+  // carrega o texto:
+  var text = S( texto );
+  // mostra o texto formatado no terminal
+  console.log( text[ prog.action ]().s );
+});
+```
+
+No código acima estamos usando o modulo string para carregar o texto e depois aplicar a ação pedida pelo usuário.
+
+Para mais informações como o modulo string funciona acesse: http://stringjs.com/
+
+
+### 4 Código final:
+
+Arquivo **bin/muda-texto.js**
+
+```js
+#! /usr/bin/env node
+
+// modulos que vamos usar nesse comando:
+var program = require('commander');
+var S = require('string');
+// registra um novo comando e parâmetros para esse comando, no caso temos 1 argumento obrigátório e 1 opção para selecionar a ação:
+program
+.version('0.0.1')
+.arguments('<texto>')
+.option('-a, --action <action>', 'Ação que o nosso comando vai realizar')
+.action(function (texto, prog) {
+  // carrega o texto:
+  var text = S( texto );
+  // mostra o texto formatado no terminal
+  console.log( text[ prog.action ]().s );
+});
+// Lê os argumentos do comando atual e prepara para a execução da ação relacionada:
+program.parse(process.argv);
+// Se o usuário não passar nenhum argumento ele vai exibir um texto:
+if (!program.args.length) {
+  console.log('O comando não foi encontrato, use o comando "muda-texto -h" para ver todas as opções disponíveis.');
+}
+
 ```
 
 ## +informação
