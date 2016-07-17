@@ -1,0 +1,20 @@
+{
+  "name": "muda-texto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modulo simples para alterar textos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "say-my-name": "bin/say-my-name.js",
+    "muda-texto": "bin/muda-texto.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "string": "^3.3.1"
+  }
+}

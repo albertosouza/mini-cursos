@@ -10,10 +10,6 @@ Aprender como criar comandos com Node.js
 
 Para aprender a criar e organizar comandos em seus sistemas com Node.js
 
-## E o que vamos desenvolver?
-
-Vamos criar alguns comandos simples para exemplificar o uso de comandos.
-
 ## Pré-requisitos:
 
 Para realizar esse curso você deve saber **Javascript básico** e ter o **node.js** instalado em seu computador.
@@ -26,11 +22,15 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
   - Modulos **globais** e **locais**
   - **npm scripts**
 - Iniciando
-  - Criando um projeto com comandos
+  - Criando um modulo npm ou projeto com comandos
 - Desenvolvendo e praticando
   - Criando um comando para alterar textos
   - Criando um comando para exibir a cotação atual do dolar e euro
   - Usando comandos com o CRON (agendador de tarefas do sistema operacional)
+
+## E o que vamos desenvolver?
+
+Vamos criar alguns comandos simples para exemplificar o uso de comandos.
 
 ## APIs e Links úteis
 
