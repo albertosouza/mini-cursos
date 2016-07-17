@@ -35,4 +35,5 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
 ## APIs e Links úteis
 
 - Api para pegar os dados da cotação: http://api.promasters.net.br/cotacao/v1/valores
+- Documentação no npm: https://docs.npmjs.com/files/package.json#bin
 
