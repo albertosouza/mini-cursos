@@ -25,7 +25,7 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
   - Criando um comando para alterar textos: [link](2_1_comando_alterar_texto.md)
   - Criando um programa com comandos para exibir a cotação atual do dolar e euro: [link](2_2_comando_exibir_coracao.md)
 - Testes
-  - testando os comandos de carregar a cotação atual do dolar e euro
+  - Testando os comandos de carregar a cotação atual do dolar e euro: [link](3_escrevendo_testes_para_meus_comandos.md)
 
 ## O que vamos desenvolver?
 
