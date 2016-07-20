@@ -35,3 +35,7 @@ Vamos criar alguns comandos simples para exemplificar o uso de comandos.
 
 - Documentação no npm: https://docs.npmjs.com/files/package.json#bin
 
+## Exemplos:
+
+Para executar ou usar os exemplos de código da pasta cods você deve executar o comando npm **install** dentro de cada pasta com um package.json e depois executar um **npm link** para "instalar" o comando.
+
