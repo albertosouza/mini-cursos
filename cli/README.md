@@ -22,18 +22,16 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
   - Modulos **globais** e **locais**
   - **npm scripts**
 - Iniciando
-  - Criando um modulo npm ou projeto com comandos
+  - Criando um modulo npm ou projeto com comandos: [link](1_iniciando.md)
 - Desenvolvendo e praticando
-  - Criando um comando para alterar textos
-  - Criando um comando para exibir a cotação atual do dolar e euro
-  - Usando comandos com o CRON (agendador de tarefas do sistema operacional)
+  - Criando um comando para alterar textos: [link](2_1_comando_alterar_texto.md)
+  - Criando um programa com comandos para exibir a cotação atual do dolar e euro: [link](2_2_comando_exibir_coracao.md)
 
-## E o que vamos desenvolver?
+## O que vamos desenvolver?
 
 Vamos criar alguns comandos simples para exemplificar o uso de comandos.
 
 ## APIs e Links úteis
 
-- Api para pegar os dados da cotação: http://api.promasters.net.br/cotacao/v1/valores
 - Documentação no npm: https://docs.npmjs.com/files/package.json#bin
 
