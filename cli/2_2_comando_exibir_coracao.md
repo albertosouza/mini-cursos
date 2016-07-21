@@ -189,3 +189,8 @@ Execute o comando `npm link` no seu terminal na pasta cotacao onde criamos o pac
 ## Código final:
 
 [Link](cotacao/bin/cotacao.js)
+
+
+## Próximo conteúdo
+
+https://github.com/albertosouza/mini-cursos/blob/master/cli/3_escrevendo_testes_para_meus_comandos.html
