@@ -14,19 +14,19 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
 
 ## Conteúdo:
 
-- Introdução: [link](0_preparaao_introducao.md)
+- Introdução: [link](0_preparacao_introducao.md)
   - Exemplos de uso
     - https://github.com/bower/bower/blob/master/package.json#L9
     - https://github.com/wejs/we/blob/master/package.json#L8 
   - Executando comandos **globais** e **locais**
   - **npm link**
 - Iniciando
-  - Criando um modulo npm ou projeto com comandos: [link](1_iniciando.md)
+  - [Criando um modulo npm ou projeto com comandos: link](1_iniciando.md)
 - Desenvolvendo e praticando
-  - Criando um comando para alterar textos: [link](2_1_comando_alterar_texto.md)
-  - Criando um programa com comandos para exibir a cotação atual do dolar e euro: [link](2_2_comando_exibir_coracao.md)
+  - [Criando um comando para alterar textos: link](2_1_comando_alterar_texto.md)
+  - [Criando um programa com comandos para exibir a cotação atual do dolar e euro: link](2_2_comando_exibir_coracao.md)
 - Testes
-  - Testando os comandos de carregar a cotação atual do dolar e euro: [link](3_escrevendo_testes_para_meus_comandos.md)
+  - [Testando os comandos de carregar a cotação atual do dolar e euro: link](3_escrevendo_testes_para_meus_comandos.md)
 
 ## O que vamos desenvolver?
 
