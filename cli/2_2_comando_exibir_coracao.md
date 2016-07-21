@@ -43,7 +43,7 @@ npm init -y
 ### 2- Instalando as dependencia:
 
 ```sh
-npm install --save comander
+npm install --save commander
 npm install --save request
 ```
 
