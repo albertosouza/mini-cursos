@@ -84,5 +84,7 @@ Link: [Criando um comando para alterar textos](2_1_comando_alterar_texto.md)
 - Sobre CLI na Wikipedia: https://pt.wikipedia.org/wiki/Linha_de_comandos
 - Tutorial de como criar comandos cli do Igor Santana na tableless: http://tableless.com.br/criando-aplicacoes-cli-utilizando-node-js/
 
+## Próximo conteúdo
 
+https://github.com/albertosouza/mini-cursos/blob/master/cli/2_1_comando_alterar_texto.md
 
