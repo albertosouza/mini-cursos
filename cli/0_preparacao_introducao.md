@@ -21,5 +21,13 @@ Nesse mini curso / tutorial vamos aprender a criar programas de linha de comando
 - https://github.com/bower/bower/blob/master/package.json#L9
 - https://github.com/wejs/we/blob/master/package.json#L8 
 
+## Vídeo relacionado:
+
+<a href="https://www.youtube.com/watch?v=EvefRdrYYVI&list=PLFDImg61IGvRM0q8r13m6zNEgjTOaU4NY&index=1" target="_blank"><img src="http://img.youtube.com/vi/EvefRdrYYVI/0.jpg" 
+alt="Parte 1 - Vídeos sobre criando comandos de CLI" width="300" border="10" /></a>
+
+## Proximo conteúdo:
+
+https://github.com/albertosouza/mini-cursos/blob/master/cli/1_iniciando.md
 
 
