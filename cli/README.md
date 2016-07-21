@@ -14,11 +14,12 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
 
 ## Conteúdo:
 
-- Preparação e introdução
+- Introdução: [link](0_preparaao_introducao.md)
   - Exemplos de uso
+    - https://github.com/bower/bower/blob/master/package.json#L9
+    - https://github.com/wejs/we/blob/master/package.json#L8 
+  - Executando comandos **globais** e **locais**
   - **npm link**
-  - Modulos **globais** e **locais**
-  - **npm scripts**
 - Iniciando
   - Criando um modulo npm ou projeto com comandos: [link](1_iniciando.md)
 - Desenvolvendo e praticando
