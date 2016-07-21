@@ -14,7 +14,7 @@ Para realizar esse curso você deve saber **Javascript básico** e ter o **node.
 
 ## Vídeos:
 
-<a href="https://www.youtube.com/playlist?list=PLFDImg61IGvRM0q8r13m6zNEgjTOaU4NY" target="_blank"><img src="http://img.youtube.com/vi/EvefRdrYYVI&list=PLFDImg61IGvRM0q8r13m6zNEgjTOaU4NY/0.jpg" 
+<a href="https://www.youtube.com/playlist?list=PLFDImg61IGvRM0q8r13m6zNEgjTOaU4NY" target="_blank"><img src="http://img.youtube.com/vi/EvefRdrYYVI/0.jpg" 
 alt="Vídeos sobre criando comandos de CLI" width="240" height="180" border="10" /></a>
 
 ## Conteúdo:
