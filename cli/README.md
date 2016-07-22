@@ -19,7 +19,7 @@ alt="Vídeos sobre criando comandos de CLI" width="300" border="10" /></a>
 
 ## Conteúdo:
 
-- Introdução: [link](0_preparacao_introducao.md)
+- [Introdução: link](0_preparacao_introducao.md)
   - Exemplos de uso
     - https://github.com/bower/bower/blob/master/package.json#L9
     - https://github.com/wejs/we/blob/master/package.json#L8 
