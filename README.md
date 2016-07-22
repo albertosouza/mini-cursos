@@ -6,6 +6,7 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
 
 ## Cursos:
 
+- [ ] [Javascript ES2015 (ES6)](es2015/README.md)
 - [ ] Node.js basico - TODO!
   - [ ] Estrutura de dados
   - [ ] Funções e escopo
