@@ -6,10 +6,11 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
 
 ## Cursos:
 
-- [ ] [Javascript ES2015 (ES6)](es2015/README.md)
-- [ ] Node.js basico - TODO!
+- [ ] Javascript
   - [ ] Estrutura de dados
   - [ ] Funções e escopo
+  - [ ] [ES2015 (ES6)](es2015/README.md)
+- [ ] Node.js basico - TODO!
   - [ ] Sync, async e Promise
   - [ ] Incluindo e criando modulos no seu código
 - [x] [Criando comandos de terminal (CLI) com Node.js](cli/README.md) 
