@@ -78,5 +78,81 @@ function soma (num1, num2) {
 }
 ```
 
-Agora nosso código vai funcionar normalmente, ao excutar `soma(2, 3)` ele vai retornar `8` e ao executar `soma()` ele vai retornar `undefined` mas não vai ocorrer erros.
+Agora nosso código vai funcionar normalmente. Ao excutar `soma(2, 3)` ele vai retornar `8` e ao executar `soma()` ele vai retornar `undefined` mas não vai ocorrer erros.
 
+No caso de uso do `let` com o `for`, a cada loop o javascript gera um novo i com o valor e assim mantendo o valor atual do i dentro do bloco de código do `for`
+
+Exemplo de uso do `let` com `for`:
+
+```js
+// uma função assíncrona 
+function getData(cb) {
+  setTimeout(function(){
+    cb();
+  }, 100);
+}
+// uma função de exemplo:
+function test() {
+  // o let gera uma nova variável i para cada execução:
+  for (let i = 0; i < 3; i++) {
+    getData(function(){
+      // usando o let o escopo dentro do bloco do for se mantém e 
+      // valor de i em cada execução se mantém:
+      console.log('valor do i: '+ i);
+    })
+  }
+}
+test(); // executando ...
+```
+
+O exemplo acima vai exibir o resultado:
+
+```
+valor do i: 0
+valor do i: 1
+valor do i: 2
+```
+
+Mesmo executando um for com uma função assíncrona o valor exibido na função interna está correta. 
+
+## const
+
+A  declaração `const` cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída.<br>
+*from [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)*
+
+```js
+// define my_fav como uma constante e atribui o valor 7
+const my_fav = 7;
+
+// isto falha mas não emite erros no Firefox e Chrome (porém não falha no Safari)
+my_fav = 20;
+
+// retorna 7
+console.log("my favorite number is: " + my_fav);
+
+// tentar redeclarar a constante emite um erro 
+const my_fav = 20;
+
+// o nome my_fav está reservado para a constante acima, logo também irá falhar
+var my_fav = 20; 
+
+// my_fav ainda é 7
+console.log("my favorite number is " + my_fav);
+
+// Atribuir valores a uma variável const é um erro de sintaxe
+const a = 1; a = 2;
+
+// const deve ser inicializada
+const foo; // SyntaxError: missing = in const declaration
+
+// const também funciona com objetos
+const myObject = {"key": "value"};
+
+// Sobrescrever o objeto também falha (no Firefox e Chrome but mas não no Safari)
+myObject = {"otherKey": "value"};
+
+// Entretando, atributos de objetos não estão protegidos,
+// logo a seguinte instrução é executada sem problemas 
+myObject.key = "otherValue";
+```
+*code from [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)*

@@ -7,8 +7,9 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
 ## Cursos:
 
 - [ ] Javascript
-  - [ ] Estrutura de dados
-  - [ ] Funções e escopo
+  - [ ] Básico/iniciante
+    - [ ] Estrutura de dados
+    - [ ] Funções e escopo
   - [ ] [ES2015 (ES6)](es2015/README.md)
 - [ ] Node.js basico - TODO!
   - [ ] Sync, async e Promise
