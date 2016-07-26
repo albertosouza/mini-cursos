@@ -1,4 +1,4 @@
-# Let e const
+# Declaração de variáveis: let e const
 
 Nesse conteúdo vamos falar das 2 novas formas de declarar váriaveis no código javascript, o **let** e o **const**.
 
