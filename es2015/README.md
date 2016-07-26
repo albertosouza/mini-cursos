@@ -27,6 +27,8 @@ Escolha uma dessas opções para testar os códigos do curso em seu navegador se
 
 - Declaração de variáveis: let e const
 - Funções
+  - Function Defaults e Named Parameters
+  - Rest Parameter, Spread Operator
   - Arrow Functions
 - Objetos e novos métodos
 - Arrays, maps e sets

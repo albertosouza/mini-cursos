@@ -156,3 +156,7 @@ myObject = {"otherKey": "value"};
 myObject.key = "otherValue";
 ```
 *code from [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)*
+
+## Próximo conteúdo
+
+(Arrow functions)[2_arrow_functions.md]
