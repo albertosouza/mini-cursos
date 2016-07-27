@@ -159,4 +159,4 @@ myObject.key = "otherValue";
 
 ## Próximo conteúdo
 
-(Arrow functions)[2_arrow_functions.md]
+[Function Defaults e Named Parameters](1_declaracao_variaveis.md)
