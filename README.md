@@ -11,13 +11,14 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
     - [ ] Estrutura de dados
     - [ ] Funções e escopo
   - [ ] [ES2015 (ES6)](es2015/README.md)
-- [ ] Node.js basico - TODO!
-  - [ ] Sync, async e Promise
-  - [ ] Incluindo e criando modulos no seu código
-- [x] [Criando comandos de terminal (CLI) com Node.js](cli/README.md) 
-- [ ] Sequelize avançado - TODO!
-- [ ] Express - TODO!
-- [ ] Enviando emails com localização - TODO!
+- [ ] Node.js 
+  - [ ] Node.js basico - TODO!
+    - [ ] Sync, async e Promise
+    - [ ] Incluindo e criando modulos no seu código
+  - [x] [Criando comandos de terminal (CLI) com Node.js](cli/README.md) 
+  - [ ] Sequelize avançado - TODO!
+  - [ ] Express - TODO!
+  - [x] [Enviando emails com template, tradução e estilos](email/enviando_emails_com_localizacao.md)
 
 ## Contato. suporte. dúvidas e fórum
 
