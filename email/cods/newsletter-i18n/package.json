@@ -1,0 +1,19 @@
+{
+  "name": "newsletter-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "email-templates": "^2.4.0",
+    "handlebars": "^4.0.5",
+    "nodemailer": "^2.5.0",
+    "nodemailer-smtp-transport": "^2.6.0"
+  }
+}
