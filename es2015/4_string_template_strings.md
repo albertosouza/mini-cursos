@@ -1,6 +1,7 @@
 # Template strings
 
-Com os *template strings* é possível definir textos com várias linhas e concatenar variáveis sem usar o `+` 
+> Template strings são envolvidas por crases (` `) em vez de aspas simples ou duplas. Template strings podem possuir marcadores. Estes são indicados pelo sinal de dólar seguido de chaves (${expression}). As expressões nos marcadores, bem como o texto em volta delas são passados à uma função. A função padrão apenas concatena as partes em uma string única.  Se existir uma expressão precedendo a template string (função tag exemplo),  a template string é definida como "tagged template string". No caso, a expressão tag (geralmente uma função) é chamada pela template string processada, que você pode manipular antes de produzir o resultado.
+> *from [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)*
 
 Exemplo:
 
