@@ -9,5 +9,5 @@ alt="Parte 1 - Vídeos sobre criando comandos de CLI" width="300" border="10" />
 
 Modulos usados: email-templates, nodemailer, nodemailer-smtp-transport e async
 
-Código: [Link](cods)
+Código: [Link](cods/newsletter-i18n)
 
