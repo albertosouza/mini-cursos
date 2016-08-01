@@ -6,12 +6,12 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
 
 ## Cursos:
 
-- [ ] Javascript
+- Javascript
   - [ ] Básico/iniciante
     - [ ] Estrutura de dados
     - [ ] Funções e escopo
   - [ ] [ES2015 (ES6)](es2015/README.md)
-- [ ] Node.js 
+- Node.js 
   - [ ] Node.js basico - TODO!
     - [ ] Sync, async e Promise
     - [ ] Incluindo e criando modulos no seu código
@@ -19,6 +19,9 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
   - [ ] Sequelize avançado - TODO!
   - [ ] Express - TODO!
   - [x] [Enviando emails com template, tradução e estilos](email/enviando_emails_com_localizacao.md)
+- HTML5
+  - Canvas
+    - [ ] [Desenhando um boneco de palito com canvas](html5/1_boneco_de_palito_com_canvas.md)
 
 ## Contato. suporte. dúvidas e fórum
 
