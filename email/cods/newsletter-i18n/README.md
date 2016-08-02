@@ -1,6 +1,6 @@
 # Newsletter de exemplo com i18n
 
-Conteúdo relácionado: https://github.com/albertosouza/mini-cursos/blob/master/email/enviando_emails_com_localizacao.md
+Conteúdo relacionado: https://github.com/albertosouza/mini-cursos/blob/master/email/enviando_emails_com_localizacao.md
 
 ## Instalação
 
