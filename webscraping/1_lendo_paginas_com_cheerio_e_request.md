@@ -9,8 +9,8 @@ Nesse screencast vou mostrar como realizar retirar dados de páginas web usando 
 
 ## Modulos usados:
 
-Cheerio: http://npmjs.com/cheerio
-Request: http://npmjs.com/request
+- Cheerio: http://npmjs.com/cheerio
+- Request: http://npmjs.com/request
 
 ## Links:
 
