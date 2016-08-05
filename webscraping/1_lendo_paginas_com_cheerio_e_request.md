@@ -2,6 +2,11 @@
 
 Nesse screencast vou mostrar como realizar retirar dados de páginas web usando Node.js
 
+## Temas abordados nesse screencast:
+
+- Carregando uma página simples
+- Carregando uma página com gzip
+
 ## Modulos usados:
 
 Cheerio: http://npmjs.com/cheerio
