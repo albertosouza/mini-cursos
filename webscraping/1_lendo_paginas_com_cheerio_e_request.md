@@ -1,6 +1,9 @@
-# [scraping] Retirando dados de páginas com cheerio e request
+# [scraping] Retirando dados de páginas com Node.js
 
 Nesse screencast vou mostrar como realizar retirar dados de páginas web usando Node.js
+
+<a href="https://www.youtube.com/watch?v=Znpbz6RzLFI" target="_blank"><img src="http://img.youtube.com/vi/Znpbz6RzLFI/0.jpg" 
+alt="Retirando dados de páginas com Node.js" width="300" border="10" /></a>
 
 ## Temas abordados nesse screencast:
 

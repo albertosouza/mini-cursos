@@ -2,6 +2,9 @@
 
 Nesse conteúdo vamos falar das APIs mais básicas do Canvas e usa-las para desenhar um boneco 2d simples o stickman com linhas, circulos e quadrados.
 
+<a href="https://www.youtube.com/watch?v=TG7-yv3VjDA" target="_blank"><img src="http://img.youtube.com/vi/TG7-yv3VjDA/0.jpg" 
+alt="Desenhando formas simples com HTML5 canvas" width="300" border="10" /></a>
+
 **API: HTML5 Canvas**
 
 method returns a drawing context on the canvas, or null if the context identifier is not supported.
