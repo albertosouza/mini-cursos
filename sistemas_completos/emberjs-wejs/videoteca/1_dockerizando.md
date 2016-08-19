@@ -22,3 +22,9 @@ Site do docker: https://www.docker.com
 - Docker: https://www.docker.com/products/overview#/install_the_platform
 - docker-compose: https://docs.docker.com/compose/install/
 
+## Dicas e FAQ
+
+- bower e user do container 
+  - use `--allow-root` ou configure o bowerrc com `"allow_root": true`
+- permissões de criação de arquivos em comandos como o `docker-compose run webapp ember generate component app-header -it`
+ - Apesar de existir algumas opções eu ainda não achei uma fácil de usar então nesse ponto estou editando e gerando códigos usandos as ferramentas no localhost
