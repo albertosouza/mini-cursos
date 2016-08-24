@@ -20,6 +20,7 @@ Essa iniciativa faz parte do projeto [We.js](https://wejs.org) e tem como objeti
   - [ ] Express - TODO!
   - [x] [Enviando emails com template, tradução e estilos](email/enviando_emails_com_localizacao.md)
   - [x] [[scraping] Retirando dados de paginas com cheerio e request](webscraping/1_lendo_paginas_com_cheerio_e_request.md)
+  - [x] [Lendo arquivos grandes com Node.js](nodejs/lendo-arquivos-grandes.md) 
 - HTML5
   - Canvas
     - [x] [Desenhando um boneco de palito com canvas](html5/1_boneco_de_palito_com_canvas.md)
