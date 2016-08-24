@@ -1,4 +1,4 @@
-# Ferramentas de uso (software)
+# Ferramentas que eu uso (software)
 
 ## Plugins do sublime text:
 
