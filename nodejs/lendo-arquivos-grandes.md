@@ -1,12 +1,17 @@
 # Lendo arquivos grandes com Node.js
 
-Nesse screencast mostro como carregar arquivos e arquivos grandes usando Node.js
+Nesse vídeo mostro como carregar arquivos e arquivos grandes usando Node.js
 
 Quando precisamos trabalhar com um arquivo de dados muito grande não é possível carregar todo o seu conteúdo na aplicação mas podemos ir lendo e processando partes do arquivo.
 
-Vamos ver 2 formas:
+## Vídeo:
 
-## 1 - usando o modulo readline do core do node.js
+<a href="https://www.youtube.com/watch?v=4Y9fsLTyVks" target="_blank"><img src="http://img.youtube.com/vi/4Y9fsLTyVks/0.jpg" 
+alt="Retirando dados de páginas com Node.js" width="300" border="10" /></a>
+
+## Vamos ver 2 formas:
+
+### 1 - usando o modulo readline do core do node.js
 
 **Vantagem:** Não precisa instalar modulos da comunidade
 
@@ -32,7 +37,7 @@ rl.on('close', () => {
 
 ```
 
-## 2 - Usando o modulo linebyline do NPM
+### 2 - Usando o modulo linebyline do NPM
 
 **Vantagens:** é mais simples de usar pois já usa resolve coisas como o número da linha atual
 **Desvantagens:** Precisa instalar o modulo `linebyline` 
