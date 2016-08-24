@@ -1,3 +1,4 @@
+'use strict'
 /**
  * Exemplo usando o modulo do core do node.js readline:
  */
@@ -10,7 +11,7 @@ const rl = readline.createInterface({
 });
 // função que é executada a cada linha:
 rl.on('line', (line) => {
-  console.log('Line from file:', line);
+  console.log(`Linha: ${line}`);
 });
 // evento executado após ler todas as linhas do arquivo:
 rl.on('close', () => {
