@@ -3,7 +3,7 @@
 ## Plugins do sublime text:
 
 - Package Control
-- DoceBlock
+- DocBlock
 - EJS
 - Handlebars
 - MarkdownPreview
@@ -36,6 +36,15 @@
 - META SEO inspector
 - Postman
 - Quick Javascript Switcher
+
+## Editor de imagens
+
+- Gimp
+
+## Editor de vídeos e audio
+
+- KdeLive
+- Audacity
 
 ## Servidores e estrutura
 
