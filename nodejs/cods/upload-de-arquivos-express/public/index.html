@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UPLOADS!</title>
+</head>
+<body>
+
+
+<p>Enviando o avatar do usuário</p>
+
+<form action="/profile" method="post" enctype="multipart/form-data">
+  <input type="file" name="avatar" accept=".jpg,.png" >
+  <button>Enviar</button>
+</form>
+
+<hr>
+
+<p>Enviando algumas fotos</p>
+
+<form action="/photos/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="photos" accept=".jpg,.png" multiple>
+  <button>Enviar</button>
+</form>
+
+<hr>
+
+</body>
+</html>
