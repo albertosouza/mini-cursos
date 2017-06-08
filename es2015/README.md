@@ -39,5 +39,5 @@ Escolha uma dessas opções para testar os códigos do curso em seu navegador se
 
 ## Refêrencias
 
-[Todas as referências no link](linksreferencias.md)
+[Todas as referências no link](links_referencias.md)
 
